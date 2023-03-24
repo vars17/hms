@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+/* Style the header */
+.header {
+  background-color: MediumSeaGreen;
+  padding: 20px;
+  text-align: center;
+}
+.avatar {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.p1{font-family:cursive;
+background-color:ivory;
+}
+</style>
+</head>
+
+<body>
+	<div class="header">
+	  <h1>Ladies Hostel</h1>
+	  <h2 >Mar Athanasius College Of Engineering Kothamangalam</h2>
+	</div>
+	<p class="p1">
+	<img src="D:\GIRLATHON\stud.png" class="avatar" ><br>Negha Ajayaghosh<br>Room No:202<br>
+	Newest Block<br>  II year computer science and Engineering</p>  
+	<marquee   vspace=20% hspace=80% direction="left" height=50px style= "color:green; background-color:ivory  font-size: 100px;">Today's MENU &nbsp;&nbsp;&nbsp; Breakfast:IDLI AND SAMBAR &nbsp;&nbsp;&nbsp; Lunch:RICE,SAMBAR,AVIYAL,CABBAGE &nbsp;&nbsp;&nbsp; Snack:PAZHAMPORI &nbsp;&nbsp;&nbsp; Dinner:BIRIYANI</marquee>
+	</body>
+
+
+<head>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.navbar {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: sticky;
+			top: 0;
+			cursor: pointer;
+		}
+
+		.background {
+			background:MediumSeaGreen;
+			background-blend-mode: darken;
+			background-size: cover;
+		}
+
+		.nav-list {
+			width: 70%;
+			display: flex;
+			align-items: center;
+		}
+
+		.logo {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.logo img {
+			width: 180px;
+			border-radius: 50px;
+		}
+
+		.nav-list li {
+			list-style: none;
+			padding: 26px 30px;
+		}
+
+		.nav-list li a {
+			text-decoration: none;
+			color: white;
+		}
+
+		.nav-list li a:hover {
+			color: grey;
+		}
+
+		
+
+		
+
+		.firstsection {
+			background-color: #90EE90;
+			height: 200px;
+		}
+
+		.secondsection {
+			
+			height: 200px;
+		}
+
+		.box-main {
+			display: flex;
+			justify-content:space-around;
+			align-items: left;
+			color:  #243407;
+			max-width: 80%;
+			margin:0cap;
+			height: 80%;
+		}
+
+		.firsthalf {
+			width: 50%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+background-image:linear-gradient(to bottom right ,green,lime green);
+		
+		}
+
+		.secondhalf {
+			width: 30%;
+		}
+
+		.secondhalf img {
+			width: 70%;
+			border: 4px solid white;
+			border-radius: 150px;
+			display: block;
+			margin: auto;
+			
+
+		.text-big {
+			font-family: 'Piazzolla', serif;
+			font-weight: bold;
+			font-size: 35px;
+      
+      
+		}
+
+		.text-small {
+			font-size: 18px;
+		}
+
+		.btn {
+			padding: 8px 20px;
+			margin: 7px 0;
+			border: 2px solid white;
+			border-radius: 8px;
+			background: none;
+			color: white;
+			cursor: pointer;
+		}
+
+		.btn-sm {
+			padding: 6px 10px;
+			vertical-align: middle;
+		}
+
+		.section {
+			height: 400px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			max-width: 90%;
+			margin:auto;
+			
+		}
+
+		.section-Left {
+			flex-direction: row-reverse;
+		}
+
+		.paras {
+			padding: 0px 65px;
+		}
+
+		.thumbnail img {
+			width: 250px;
+			border: 2px solid black;
+			border-radius: 26px;
+			margin-top: 19px;
+		}
+
+		.center {
+			text-align: center;
+		}
+
+		.text-footer {
+			text-align: center;
+			padding: 30px 0;
+			font-family: 'Ubuntu', sans-serif;
+			display: flex;
+			justify-content:center;
+			color: white;
+		}
+
+		.avatar{
+			vertical-align: middle;
+            width: 50px;
+            height: 80px;
+			border-radius: 50%;
+		}
+td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+    
+	</style>
+</head>
+
+<body>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			
+			<li><a href="#abt">About Us</a></li>
+			<li><a href="#contact">Contact details</a></li>
+			<li><a href="#course">Grievance Redressal</a></li>
+		</ul>
+
+		
+	</nav>
+
+<table style="width:100%;height:400%;" >
+  <tr style="height:200px">
+    <td align=center><a href="D:\GIRLATHON\attendance.html"><img src="D:\GIRLATHON\attndnce.png" style="width:50;height:50px"><br></a>Attendance</td>
+    <td align=center><a href="D:\GIRLATHON\maintenance.html"><img src="D:\GIRLATHON\maintenance.png" style="width:50; height:50px"><br></a>Maintenance</td>
+  </tr>
+
+  <tr>
+    <td align=center><a href="D:\GIRLATHON\bill.html"><img src="D:\GIRLATHON\bill.png" style="width:50; height:50px" ><br></a>Bill</td>
+    <td align=center><a href="D:\GIRLATHON\taxi.html"><img src="D:\GIRLATHON\txi.jpeg" style="width:50; height:50px"><br></a>Taxi</td>
+  </tr>
+</table>
+
+	<section class="firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="abt">About Us</h1>
+				<p class="text-small">
+          Mar Athanasius Engineering College ,Ladies Hostel was established in 1961 alongside the college itself.
+
+			
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section class="secondsection">
+		<div class="box-main">
+			<div class="firstHalf">
+        
+				<h1 class="text-big" id="contact">Contact Us</h1>
+                <br><h2>Linta Roy<br>LH Mace</h2>
+				<p class="text-small"><br>
+    
+                 email : linta78@gmail.com<br>
+          		 ph : 9087566435
+				
+</p>
+</div>
+</div>
+</section>
+<footer class="background">
+<p class="text-footer">Copyright ©-All rights are reserved</p>
+</footer>
+</body>
+</html>
